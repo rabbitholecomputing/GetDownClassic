@@ -1,0 +1,1 @@
+#include "CBinHex.h"CBinHex::CBinHex(FSSpec *fileSpec){	fileStream = new LFileStream(*fileSpec);}// Decode a BinHex 4.0 file.Boolean CBinHex::Decode(){	return false;};
